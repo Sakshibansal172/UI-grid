@@ -10,7 +10,7 @@
     width: 95%;
     /**height: 100%;*/
     border-radius: 1rem;
-    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    
     justify-self: center;
     display: flex;
     align-items: center;
@@ -18,34 +18,33 @@
     cursor: pointer;
     transition: 0.3s ease;
     margin:5px;
+    border: 2px solid #47143D;
   }
   .btn__primary {
     grid-column: 1/2;
     grid-row: 4/5;
     background: var(--primary);
-    box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-light), inset -0.2rem -0.2rem 1rem var(--primary-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
-    color: var(--greyLight-1);
+    border: 2px solid #47143D;
+    color: #B99750;
     height:100px;
   }
   .btn__primary:hover {
-    color: var(--white);
+    background-color: #47143D;
+    border: 3px solid #B99750;
+    color: #B99750;
   }
   .btn__primary:active {
-    box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-dark), inset -0.2rem -0.2rem 1rem var(--primary-light);
-  }
-  .btn__secondary {
+    border: 2px solid #B99750; 
+   }
+  .graphdiv {
     grid-column: 1/2;
     grid-row: 5/6;
-    color: var(--greyDark);
+    color: #B99750;
     height:500px;
     
   }
-  .btn__secondary:hover {
-    color: var(--primary);
-  }
-  .btn__secondary:active {
-    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
-  }
+ 
+ 
   .btn p {
     font-size: 1.6rem;
   }
@@ -54,6 +53,26 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 5px;
+    border: 2px solid #47143D;
   }
 
-  
+  :host {
+    --primary-light: #47143D;
+    --primary: #B99750;
+    --primary-dark: #47143D;
+    --white: #FFFFFF;
+     /* --greyLight-1: #B99750;
+    --greyLight-2: #B99750;
+    --greyLight-3: #B99750;
+    --greyDark: #B99750;
+    ;  */
+  }
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+  .row_cont{
+    margin: auto;
+  }

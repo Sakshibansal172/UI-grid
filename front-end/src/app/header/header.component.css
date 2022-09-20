@@ -22,10 +22,7 @@
   transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .navv{
-  background-color: #E4EBF5; color:#B99750;
+  background-color: #47143D;
+  color:#B99750;
   margin-bottom: 0px;
 }
-.navv:hover{
-  background-color: #47143D;
-}
-

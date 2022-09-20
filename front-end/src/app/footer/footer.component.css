@@ -1,7 +1,4 @@
 .foot{
-    background-color: #E4EBF5; 
-    color:#B99750;
-  }
-  .foot:hover{
-    background-color: #47143D;
-  }
+  background-color: #47143D;    
+  color:#B99750;
+}
