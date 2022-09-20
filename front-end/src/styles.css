@@ -9,7 +9,7 @@
     --greyLight-3: #bec8e4;
     --greyDark: #9baacf;
   }
-  
+  @import 'bootstrap/dist/css/bootstrap.css';
   *, *::before, *::after {
     margin: 0;
     padding: 0;
