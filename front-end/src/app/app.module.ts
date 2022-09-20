@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { FirstComponent } from './first/first.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
+import { GraphComponent } from './graph/graph.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { BannerComponent } from './banner/banner.component';
     BannerComponent,
 
     FirstComponent,
+      GraphComponent,
+      ContentComponent,
   ],
   imports: [
     BrowserModule,
