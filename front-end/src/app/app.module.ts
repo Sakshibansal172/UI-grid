@@ -11,6 +11,7 @@ import { BannerComponent } from './banner/banner.component';
 import { GraphComponent } from './graph/graph.component';
 import { ContentComponent } from './content/content.component';
 import { CardsComponent } from './cards/cards.component';
+import { FaultGraphComponent } from './fault-graph/fault-graph.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CardsComponent } from './cards/cards.component';
       GraphComponent,
       ContentComponent,
       CardsComponent,
+      FaultGraphComponent,
   ],
   imports: [
     BrowserModule,

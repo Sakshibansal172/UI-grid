@@ -3,21 +3,26 @@
         <div class="row">
           <div class="col-sm-9">
             <div class="options_btn_cnt">
-              <div class="btn btn__primary">
+              <button class="btn btn__primary" (click)="imageSource = 'assets/graphs/A.png'" >
                 <p>Daily Consumption</p>
-                </div>
-                <div class="btn btn__primary">
+              </button>
+                <button class="btn btn__primary" (click)="imageSource = 'assets/graphs/B.png'">
                   <p>Weekly Consumption</p>
-                  </div>
-                  <div class="btn btn__primary">
+                </button>
+                  <button class="btn btn__primary" (click)="imageSource = 'assets/graphs/C.png'">
                     <p>Month Consumption</p>
-                    </div>
+                  </button>
             </div>
+
+
+
+<img [src]="imageSource" *ngIf="imageSource"/>
+
             <!-- <div class="row">
               <div class="graphdiv"><app-graph></app-graph></div>
-            </div> -->
+            </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
