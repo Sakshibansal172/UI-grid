@@ -14,13 +14,10 @@ import { BannerComponent } from './banner/banner.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-<<<<<<< HEAD
     FooterComponent,
-    BannerComponent
-=======
-    FirstComponent,
+    BannerComponent,
 
->>>>>>> 9dfde42dbff1630a53bb75d2f9296c406d05bf78
+    FirstComponent,
   ],
   imports: [
     BrowserModule,
