@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { FirstComponent } from './first/first.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 
@@ -13,8 +14,13 @@ import { BannerComponent } from './banner/banner.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
+<<<<<<< HEAD
     FooterComponent,
     BannerComponent
+=======
+    FirstComponent,
+
+>>>>>>> 9dfde42dbff1630a53bb75d2f9296c406d05bf78
   ],
   imports: [
     BrowserModule,
