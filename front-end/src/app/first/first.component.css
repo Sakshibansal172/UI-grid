@@ -3,6 +3,7 @@
   .options_btn_cnt
   {
     display: flex;
+    justify-content: center;
   }
   
   /*  BUTTONS  */
@@ -50,7 +51,6 @@
   }
   
   .graph_cont{
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 5px;
     border: 2px solid #47143D;
@@ -66,13 +66,4 @@
     --greyLight-3: #B99750;
     --greyDark: #B99750;
     ;  */
-  }
-  *, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
-
-  .row_cont{
-    margin: auto;
   }

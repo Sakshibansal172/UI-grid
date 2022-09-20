@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+.bannerr{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-family: 'Bree Serif', serif;
+    line-height: 1.3;
+}
+
+h5{
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+}

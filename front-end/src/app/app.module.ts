@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { GraphComponent } from './graph/graph.component';
 import { ContentComponent } from './content/content.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ContentComponent } from './content/content.component';
     FirstComponent,
       GraphComponent,
       ContentComponent,
+      CardsComponent,
   ],
   imports: [
     BrowserModule,
