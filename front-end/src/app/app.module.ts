@@ -12,6 +12,10 @@ import { GraphComponent } from './graph/graph.component';
 import { ContentComponent } from './content/content.component';
 import { CardsComponent } from './cards/cards.component';
 import { FaultGraphComponent } from './fault-graph/fault-graph.component';
+import { DxChartModule } from 'devextreme-angular';
+import { WeekGraphComponent } from './week-graph/week-graph.component';
+import { YearGraphComponent } from './year-graph/year-graph.component';
+
 
 @NgModule({
   declarations: [
@@ -26,10 +30,13 @@ import { FaultGraphComponent } from './fault-graph/fault-graph.component';
       ContentComponent,
       CardsComponent,
       FaultGraphComponent,
+      WeekGraphComponent,
+      YearGraphComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DxChartModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

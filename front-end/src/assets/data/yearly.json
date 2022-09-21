@@ -1,0 +1,15 @@
+[
+  {"month":"January","power_consumption":2404323.7333333334},
+  {"month":"February","power_consumption":1882194.9333333333},
+  {"month":"March","power_consumption":1893034.4666666666},
+  {"month":"April","power_consumption":1471969.7333333334},
+  {"month":"May","power_consumption":1414234.2333333334},
+  {"month":"June","power_consumption":1098071.8333333333},
+  {"month":"July","power_consumption":1018603.8},
+  {"month":"August","power_consumption":850203.8666666667},
+  {"month":"September","power_consumption":1274973.1000000001},
+  {"month":"October","power_consumption":1753257.1333333333},
+  {"month":"November","power_consumption":1988152.2},
+  {"month":"December","power_consumption":2224497.7666666666}
+]
+
