@@ -7,9 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FirstComponent } from './first/first.component';
 import { FooterComponent } from './footer/footer.component';
-import { BannerComponent } from './banner/banner.component';
 import { GraphComponent } from './graph/graph.component';
-import { ContentComponent } from './content/content.component';
 import { CardsComponent } from './cards/cards.component';
 import { FaultGraphComponent } from './fault-graph/fault-graph.component';
 import { DxChartModule } from 'devextreme-angular';
@@ -24,11 +22,9 @@ import { AnamolyGraphComponent } from './anamoly-graph/anamoly-graph.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    BannerComponent,
-
     FirstComponent,
       GraphComponent,
-      ContentComponent,
+
       CardsComponent,
       FaultGraphComponent,
       WeekGraphComponent,
