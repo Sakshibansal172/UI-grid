@@ -1,4 +1,7 @@
-<dx-chart palette="Violet" dataSource="assets/data/yearly.json"   title="Monthly Power Consumption"
+<dx-chart
+  palette="Violet"
+  dataSource="assets/data/yearly.json"
+  title="Monthly Power Consumption"
 >
   <dxi-series
     color="#79cac4"
@@ -7,11 +10,7 @@
     valueField="power_consumption"
   >
   </dxi-series>
-   <dxo-common-series-settings
-    #seriesSettings
-
-  >
-  </dxo-common-series-settings>
+  <dxo-common-series-settings #seriesSettings> </dxo-common-series-settings>
   <dxo-margin [bottom]="20"></dxo-margin>
   <dxo-argument-axis
     [valueMarginsEnabled]="false"

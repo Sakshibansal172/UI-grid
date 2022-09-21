@@ -1,3 +1,4 @@
+import { ContactComponent } from './contact/contact.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -7,15 +8,15 @@ import { GraphComponent } from './graph/graph.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  {path:'home',component:HomeComponent},
-  {path:'first',component:FirstComponent},
-  {path:'graph',component:GraphComponent},
-  {path:'fault-graph',component:FaultGraphComponent}
-
+  { path: 'home', component: HomeComponent },
+  { path: 'first', component: FirstComponent },
+  { path: 'graph', component: GraphComponent },
+  { path: 'fault-graph', component: FaultGraphComponent },
+  { path: 'contact', component: ContactComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

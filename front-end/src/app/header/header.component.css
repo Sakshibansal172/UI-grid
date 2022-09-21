@@ -1,9 +1,9 @@
-.logo-title{
+.logo-title {
   font-size: 30px;
-  font-family:"Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
 }
 
-.nav-content{
+.nav-content {
   font-size: 20px;
 }
 
@@ -21,8 +21,7 @@
   transform: translateX(13.6rem);
   transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.navv{
-  background-color: #47143D;
-  color:#FFFFFF;
-
+.navv {
+  background-color: #47143d;
+  color: #ffffff;
 }

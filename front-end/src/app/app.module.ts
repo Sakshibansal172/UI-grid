@@ -14,7 +14,7 @@ import { DxChartModule } from 'devextreme-angular';
 import { WeekGraphComponent } from './week-graph/week-graph.component';
 import { YearGraphComponent } from './year-graph/year-graph.component';
 import { AnamolyGraphComponent } from './anamoly-graph/anamoly-graph.component';
-
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,20 +23,17 @@ import { AnamolyGraphComponent } from './anamoly-graph/anamoly-graph.component';
     HomeComponent,
     FooterComponent,
     FirstComponent,
-      GraphComponent,
+    GraphComponent,
 
-      CardsComponent,
-      FaultGraphComponent,
-      WeekGraphComponent,
-      YearGraphComponent,
-      AnamolyGraphComponent,
+    CardsComponent,
+    FaultGraphComponent,
+    WeekGraphComponent,
+    YearGraphComponent,
+    AnamolyGraphComponent,
+    ContactComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    DxChartModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, DxChartModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -3,15 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-year-graph',
   templateUrl: './year-graph.component.html',
-  styleUrls: ['./year-graph.component.css']
+  styleUrls: ['./year-graph.component.css'],
 })
 export class YearGraphComponent implements OnInit {
-  customizeText(arg:any) {
+  customizeText(arg: any) {
     return `${arg.valueText}`;
   }
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

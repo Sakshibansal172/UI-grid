@@ -4,15 +4,11 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { DxChartModule } from 'devextreme-angular';
 
-// if (!/localhost/.test(document.location.host)) {
-//   enableProdMode();
-// }
-
 @Component({
   selector: 'demo-app',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
 })
 export class AppComponent {
-  title ="something"
+  title = 'something';
 }
