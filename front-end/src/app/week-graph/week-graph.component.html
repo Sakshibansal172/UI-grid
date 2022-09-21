@@ -1,19 +1,43 @@
 <dx-chart
+
   id="chart"
+
   title="Yearly Power Consumption"
+
   dataSource="assets/data/weekly.json"
-  [rotated]="true"
+
+
+
 >
-  <dxi-series color="#79cac4" type="bar" argumentField="Week" valueField="power_consumption">
-    <dxo-label [visible]="true" backgroundColor="#c18e92"></dxo-label>
+
+  <dxi-series color="skyblue" type="bar" argumentField="Week" valueField="power_consumption">
+
   </dxi-series>
+
+<!--
+
   <dxo-argument-axis>
+
     <dxo-label [customizeText]="customizeText"></dxo-label>
-  </dxo-argument-axis>
+
+  </dxo-argument-axis> -->
+
+
+
+  <dxo-tooltip [enabled]="true" color="#B99750" text="#B99750">
+
+  </dxo-tooltip>
+
   <dxi-value-axis>
-    <dxo-tick [visible]="false"></dxo-tick>
-    <dxo-label [visible]="false"></dxo-label>
+
+    <dxo-tick [visible]="true"></dxo-tick>
+
+    <dxo-label [visible]="true"></dxo-label>
+
   </dxi-value-axis>
+
   <dxo-export [enabled]="true"></dxo-export>
-  <dxo-legend [visible]="false"></dxo-legend>
+
+  <dxo-legend [visible]="true"></dxo-legend>
+
 </dx-chart>

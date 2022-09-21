@@ -14,5 +14,5 @@ import { DxChartModule } from 'devextreme-angular';
   styleUrls: ['app.component.css'],
 })
 export class AppComponent {
-  
+  title ="something"
 }

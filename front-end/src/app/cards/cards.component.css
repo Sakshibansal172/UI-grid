@@ -26,8 +26,8 @@
 
 .container .card{
   position: relative;
-  width: 300px;
-  height: 280px;
+  width: 500px;
+  height: 380px;
 /*   background: #232323; */
   border-radius: 20px;
   overflow: hidden;
@@ -246,4 +246,6 @@
   color: #003300;
 }
 
-
+.output_color{
+  color:black !important;
+}

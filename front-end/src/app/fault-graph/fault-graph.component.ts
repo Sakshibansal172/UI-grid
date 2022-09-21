@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-fault-graph',
@@ -8,8 +9,17 @@ import { Component, OnInit } from '@angular/core';
 export class FaultGraphComponent implements OnInit {
 
   constructor() { }
-
+  totalflag:boolean = false;
+  activeflag:boolean = false;
   ngOnInit(): void {
+  }
+  total(){
+    this.activeflag = false;
+    this.totalflag = true;
+  }
+  active(){
+    this.activeflag = true;
+    this.totalflag = false;
   }
 
 }

@@ -1,2 +1,38 @@
-<h3> Depicting Anamolies</h3>
-<img src="assets/graphs/D.png" alt="">
+
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-9">
+      <div class="row">
+
+      <div class="options_btn_cnt">
+        <button class="btn btn__primary" (click)="total()">
+          <p>Consumption Anomalies</p>
+        </button>
+          <button class="btn btn__primary" (click)="active()">
+            <p>Power Anomalies</p>
+
+          </button>
+</div>
+      </div>
+
+      <app-anamoly-graph *ngIf="activeflag"></app-anamoly-graph>
+<div style="display: flex;justify-content:center;">
+<img src="assets/graphs/D.png" *ngIf="totalflag"/>
+</div>
+
+      <!-- <div class="row">
+        <div class="graphdiv"><app-graph></app-graph></div>
+      </div>-->
+    </div>
+
+  <div class="col-sm-3">
+
+
+    <div class="btn btn__secondary" *ngIf="activeflag"><h2 class="output_color" style="color:black;font-size: 30px;font-weight: 600;line-height: 150%;">Accuracy <br> 92.7%</h2></div>
+    <div class="btn btn__secondary" *ngIf="totalflag"><img src="assets/wordcloud.png" style="width:200px;height:350px;"></div>
+
+  </div>
+</div>
+
+

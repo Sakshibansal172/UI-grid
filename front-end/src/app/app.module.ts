@@ -15,6 +15,7 @@ import { FaultGraphComponent } from './fault-graph/fault-graph.component';
 import { DxChartModule } from 'devextreme-angular';
 import { WeekGraphComponent } from './week-graph/week-graph.component';
 import { YearGraphComponent } from './year-graph/year-graph.component';
+import { AnamolyGraphComponent } from './anamoly-graph/anamoly-graph.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { YearGraphComponent } from './year-graph/year-graph.component';
       FaultGraphComponent,
       WeekGraphComponent,
       YearGraphComponent,
+      AnamolyGraphComponent,
   ],
   imports: [
     BrowserModule,
